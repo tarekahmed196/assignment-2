@@ -1,0 +1,146 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#F6F6F6 ; 
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+    position: relative;
+}
+nav{
+    
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-menu{
+    width: 1163px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.main-menu ul li{
+    list-style: none;
+    
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 3;
+    
+}
+.menu-name{
+    margin-left: 36px;
+    
+}
+.login a{
+    color: white;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    
+}
+.header-body{
+    display: flex;
+    justify-content: center;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    margin-right: 141px;
+    /* margin-top: 153px; */
+    margin-bottom: 86px;
+}
+.header-title{
+    margin-left: 180px;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.watch-live{
+    margin-left: 156px;
+}
+
+/* players blog styles */
+.blogs{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    margin-left: 180px;
+    margin-top: 70px;
+    
+}
+.blog{
+    background-color: #FEFEFE;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+}
+.blog-info{
+    
+    /* margin-left: 16px; */
+}
+.blog-title{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+    
+}
+footer{
+    margin-left: 475px;
+    margin-top: 158px;
+    width: 484px;
+    height: 213px;
+    margin-bottom: 63px;
+    /* margin: auto; */
+}
+.footer-logo img{
+    width: 484px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.footer-icon a {
+    margin-left: 5px;
+}
+.footer-end{
+    text-align: center;
+}
